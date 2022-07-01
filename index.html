@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre:
+        Comision:
+        Turno:mañana
+        Año:2022</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header id="header" class="container blanco fixed-top">
+        <h1 id="logo">Deporte</h1>
+
+        <nav class="row navbar navbar-expand-lg navbar-light py-4 blanco ">
+            <div class="container">
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="Botón hamburguesa" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+                    <ul class="navbar-nav text-center ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-ancla="true" data-tiempo="800" data-freno="100">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#informacion" data-ancla="true" data-tiempo="800" data-freno="100">Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video" data-ancla="true" data-tiempo="800" data-freno="100">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#form" data-ancla="true" data-tiempo="800" data-freno="100">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="banner" class=" container px-0 carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="true" data-bs-wrap="true">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+            <button type="button" data-bs-target="#" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+            <button type="button" data-bs-target="#" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+           
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+               <picture>
+                   <source media="(min-width: 1200px )" srcset="img_ok/banner_pc.jpg">
+                   <source media="(min-width:900x )" srcset="img_ok/banner_tablet.jpg">
+               <img class="d-block w-100" src="img_ok/banner_telefono.jpg" alt="Deportes">      
+               </picture> 
+                   
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source media="(min-width: 1200px )" srcset="img_ok/banner-2 pc.jpg">
+                    <source media="(min-width:900px )" srcset="img_ok/banner-2-tablet.jpg">
+                <img class="d-block w-100" src="img_ok/banner-2-telefono.jpg" alt="Alternativas sustentables">    
+                </picture> 
+                
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source media="(min-width: 1200px )" srcset="img_ok/banner_3_pc.jpg">
+                    <source media="(min-width:900px )" srcset="img_ok/banner_3_tablet.jpg">
+                <img class="d-block w-100" src="img_ok/banner_3_telefono.jpg" alt="Alternativas sustentables">    
+                </picture> 
+    
+            </div>
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+    
+        <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </section>
+
+    <section id="informacion" class="container gris py-3"> 
+        <h2 class="text-left py-1">Algunos datos deportivos:</h2>
+        <div class="row justify-content-around ">
+        <figure class="informacion col-10 col-md-5 col-lg-3">
+            <picture>
+            <source media="(max-width:480px )" srcset="img_ok/bicis-telefono.jpg">
+              <img src="img_ok/bicis-tablet.jpg" alt="ciclismo" class="img-fluid">    
+            </picture>
+           
+            <figcaption>
+                <h4>Ciclismo</h4>
+                <p class="text-center">Previene la artrosis, mejora el tono muscular y ayuda a perder peso.</p>
+            </figcaption>
+        </figure>
+    
+        <figure class="informacion col-10 col-md-5 col-lg-3">
+            <picture>
+                <source media="(max-width:480px )" srcset="img_ok/chicos-telefono.jpg">
+                  <img src="img_ok/chicos-tablet.jpg" alt="sandwich" class="img-fluid">   
+                </picture>
+            <figcaption>
+                <h4>Fútbol</h4>
+                <p class="text-center">Ayuda a que los niños mejoren su funcionamiento cardiovascular y sobre todo el pulmonar. </p>
+            </figcaption>
+        </figure>
+    
+        <figure class="informacion col-10 col-md-5 col-lg-3">
+            <picture>
+                <source media="(max-width:480px )" srcset="img_ok/natacion-telefono.jpg">
+                  <img src="img_ok/natacion-tablet.jpg" alt="beagel" class="img-fluid">   
+                </picture>
+            <figcaption>
+                <h4>Natación</h4>
+                <p class="text-center">Los ejercicios de respiración que se ponen en práctica al cerebro.</p>
+            </figcaption>
+        </figure>
+    
+        <figure class="informacion col-10 col-md-5 col-lg-3">
+            <picture>
+                <source media="(max-width:480px )" srcset="img_ok/mont-telefono.jpg">
+                  <img src="img_ok/mont-tablet.jpg" alt="atun" class="img-fluid">   
+            </picture>
+            <figcaption>
+                <h4>Escalar</h4>
+                <p class="text-center">Es un deporte aeróbico en el que se activa la circulación, es para prevenir enfermedades cardíacas.</p>
+            </figcaption>
+        </figure>
+        </div>        
+    </section>
+    
+    <article id="principal" class="container color py-2 " > 
+        <h2>Beneficios del ejercicio físico:</h2>
+        <section>
+            <div class="row justify-content-around ">
+                
+            <figure class=" col-10 col-md-5 col-lg-5">
+                <h3>¿Por qué practicar ejercicio físico?</h3>
+                <picture>
+                    <source media="(max-width:480px )" srcset="img_ok/ejercicios-telefono.jpg">
+                    <img src="img_ok/ejercicios-tablet.jpg" alt="tabaco" class="img-fluid">   
+                </picture>
+                <figcaption>
+                    <p class="text-center">La práctica de ejercicio fisico conlleva una serie de ventajas para el corazón como:
+
+                        Reducción de la frecuencia cardíaca de reposo. Cuando se hace algún tipo de esfuerzo, aumenta la cantidad de sangre que se expulsa del corazón en cada latido. Es decir, hay una mayor eficiencia por parte del corazón, utilizando menos energía para trabajar.</p>
+                </figcaption>
+            </figure>
+
+           
+            <figure class=" col-10 col-md-5 col-lg-5">
+                <h3 class="bold">El tabaco y el deporte</h3>
+                <picture>
+                    <source media="(max-width:480px )" srcset="img_ok/tabaco-celu.jpg">
+                    <img src="img_ok/tabaco-tablet.jpg" alt="tabaco" class="img-fluid">   
+                </picture>
+                <figcaption>
+                    <p class="text-center">Las personas fumadoras que practican deporte dejan el hábito de fumar con mayor facilidad que la gente que no realiza ejercicio. Además, cuando lo hagas notarás cómo tu capacidad pulmonar y tu resistencia mejoran considerablemente.</p>
+                </figcaption>
+            </figure>
+            </div>
+        </section>
+
+        <section>
+           
+                <div class="row justify-content-around ">
+                <h3>Los beneficios del deporte para los niños:</h3>   
+                <figure class=" col-10 col-md-10 col-lg-8 text-center">
+                    
+                    <picture>
+                        <source media="(max-width:480px )" srcset="img_ok/futbol-telefono.jpg">
+                        <img src="img_ok/futbol-tablet.jpg" alt="tabaco" class="img-fluid">   
+                    </picture>
+                </figure>
+
+                    <div class=" col-10 col-md-10 col-lg-10 ">
+                        <p class="mt-2">Los niños entre 9 y 13 años que practican un deporte de equipo tienen menos riesgo de presentar problemas de salud mental que los que realizan uno individual, y estos a su vez tienen más riesgo que los que no hacen ninguna actividad.</p>
+
+                        <p>La investigación, llevada a cabo por un grupo de expertos de la Universidad Estatal de California (EE.UU.), se ha centrado en los hábitos deportivos y los datos sobre la salud mental de 11.235 niños entre 9 y 13 años.</p>
+
+                        <p>Los resultados publicados han encontrado que los jóvenes que practicaban algún deporte de equipo, como fútbol o baloncesto, tenían menos riesgo de ansiedad, aislamiento, depresión, dificultades de atención o problemas sociales.</p>
+
+                        <p>“Sabemos que la participación regular en el deporte juvenil disminuyó durante la pandemia de COVID-19. Esto se debió a los cierres en las ligas deportivas organizadas y también en los deportes escolares. Al mismo tiempo, la investigación ha demostrado que los niños y adolescentes sufrieron desde el punto de vista de la salud mental durante la pandemia, debido a factores como el aislamiento”, expone Matt Hoffmann, principal autor del estudio.</p>
+                    </div>
+                    
+                
+                </div>
+                
+        </section>
+    </article>
+
+    <section id="video" class="container py-3  gris" id="video">
+
+        <div class="row justify-content-center ">
+            
+            <h3>Para ejercitar en casa</h3>
+                
+           
+
+            <div class="col-10 "> 
+                <div class="ratio ratio-16x9 ">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvNNIt1c_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            </div>
+        </div>
+
+    </section>
+
+    <aside>
+
+    <form class="container gris py-2 " id="form">
+        <h2 >Dejanos tu consulta!</h2>
+        <div class="form-floating mb-3">
+            
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating pb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Consultanos aqui...</label>
+          </div>
+    </form>
+    </aside>
+
+    <footer class="container color py-2 ">
+        <div class="row justify-content-center mt-5 ">
+               <ul class="col-3 ">
+                   <li>Santiago Rodriguez Cetran</li>
+                   <li>Luciano Queipo</li>
+                   <li>Nicolas Mena</li>
+                   <li>Turno mañana</li>
+               </ul>
+               
+               <ul class="col-5 col-lg-4">
+                   <li>Diseño Multimedial</li>
+                   <li>Segundo Cuatrimestre</li>
+                   <li>Materia: Maquetado y desarrollo web</li>
+                   <li>Docente: Omar Toyos</li>
+                   <li>Año: 2022</li>
+               </ul>   
+                   
+               <ul class="col-4 col-lg-3 " id="redes">
+                   <div class= "row justify-content-center ">
+                       <li class="col-8 col-lg-4 p-0 my-1"><a href="https://twitter.com/" target="_blank" id="twitter">Twitter</a></li>
+                       <li class="col-8 col-lg-4 p-0 my-1"><a href="https://www.facebook.com/" target="_blank" id="facebook">facebook</a></li>
+                       <li class="col-8 col-lg-4 p-0 my-1"><a href="https://www.youtube.com/" target="_blank" id="youtube">youtube</a></li>        
+                   </div>
+                  
+               </ul>  
+        </div>
+        
+   </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/animaScroll.js"></script>
+    <script src="js/header02.js"></script>
+</body>
+</html>
